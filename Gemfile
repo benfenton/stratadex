@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'clearance'
 gem 'paperclip'
 gem 'active_model_serializers'
+gem 'bootstrap-sass', '~> 2.3.2.2'
 
 group :development do 
   gem 'better_errors'
