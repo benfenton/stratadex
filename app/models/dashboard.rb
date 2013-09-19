@@ -4,15 +4,14 @@ class Dashboard
   end
 
   def contacts
-    Contact.where(user_id: current_user)
+    @contacts ||= user.contacts
   end
 
 
   private 
+  
   attr_reader :user
 
-  def current_user
-    User.find(params[:id])
-  end
+ 
 
 end
