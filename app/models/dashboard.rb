@@ -11,7 +11,4 @@ class Dashboard
   private 
   
   attr_reader :user
-
- 
-
 end
